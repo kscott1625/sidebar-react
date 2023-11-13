@@ -1,12 +1,14 @@
 import { useState } from 'react'
 import ProjectSidebar from './components/ProjectSidebar'
+import NewProject from './components/NewProject'
 import "./index.css"
 
 function App() {
 
   return (
-    <main className='h-screen my-8' >
+    <main className='h-screen my-8 flex gap-8' >
       <ProjectSidebar/>
+      <NewProject />
     </main>
   )
 }
